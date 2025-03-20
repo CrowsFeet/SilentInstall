@@ -8,4 +8,14 @@
     -UserTLogRootDir L:\Log\
     -TempdbDataRootDir T:\Tempdb\
     -BackupRootDir E:\Backup\
- 
+
+ # Install Printanista
+.\InstallSQLServer.ps1 SQL2019
+    -saPwd SuperStr0ngPassword 
+    -Instancename MSSQLSERVER
+    -AutoMaxMemory 
+    -InstanceRootDir D:\ 
+    -UserDataRootDir D:\Data\
+    -UserTLogRootDir L:\Log\
+    -TempdbDataRootDir F:\Tempdb\
+    -BackupRootDir D:\Backup\
