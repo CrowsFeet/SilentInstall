@@ -3,7 +3,7 @@
     -saPwd SuperStr0ngPassword 
     -Instancename MSSQLSERVER
     -AutoMaxMemory 
-    -InstanceRootDir D:\ 
+    -InstanceRootDir E:\ 
     -UserDataRootDir E:\Data\
     -UserTLogRootDir L:\Log\
     -TempdbDataRootDir T:\Tempdb\
@@ -36,7 +36,7 @@
     -saPwd SuperStr0ngPassword 
     -Instancename MSSQLSERVER
     -AutoMaxMemory 
-    -InstanceRootDir C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data 
+    -InstanceRootDir C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data\
     -UserDataRootDir F:\Data\
     -UserTLogRootDir G:\Log\
     -TempdbDataRootDir D:\Tempdb\Data\
