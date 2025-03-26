@@ -30,3 +30,14 @@
     -UserTLogRootDir L:\Log\
     -TempdbDataRootDir T:\Tempdb\
     -BackupRootDir E:\Backup\
+
+# Install Deacom
+.\InstallSQLServer.ps1 SQL2019
+    -saPwd SuperStr0ngPassword 
+    -Instancename MSSQLSERVER
+    -AutoMaxMemory 
+    -InstanceRootDir C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data 
+    -UserDataRootDir F:\Data\
+    -UserTLogRootDir G:\Log\
+    -TempdbDataRootDir D:\Tempdb\Data\
+    -BackupRootDir F:\Backups\
