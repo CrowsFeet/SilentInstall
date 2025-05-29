@@ -42,7 +42,7 @@
     -TempdbDataRootDir T:\Tempdb\
     -BackupRootDir E:\Backup\
 
-# Install Deacom
+# Install Deacom -  2019
 .\InstallSQLServer.ps1 SQL2019
     -saPwd SuperStr0ngPassword 
     -Instancename MSSQLSERVER
@@ -52,3 +52,5 @@
     -UserTLogRootDir G:\Log\
     -TempdbDataRootDir D:\Tempdb\Data\
     -BackupRootDir F:\Backups\
+
+# Install Deacom - 2022
