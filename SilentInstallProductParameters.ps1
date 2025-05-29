@@ -54,3 +54,12 @@
     -BackupRootDir F:\Backups\
 
 # Install Deacom - 2022
+.\InstallSQLServer.ps1 SQL2022_01 -
+    saPwd SuperStr0ngPassword 
+    -Instancename MSSQLSERVER
+    -AutoMaxMemory 
+    -InstanceRootDir C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data\
+    -UserDataRootDir F:\Data\
+    -UserTLogRootDir G:\Log\
+    -TempdbDataRootDir D:\Tempdb\Data\
+    -BackupRootDir F:\Backups\
