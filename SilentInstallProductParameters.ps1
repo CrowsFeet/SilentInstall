@@ -63,3 +63,15 @@
     -UserTLogRootDir G:\Log\
     -TempdbDataRootDir D:\Tempdb\Data\
     -BackupRootDir F:\Backups\
+
+# Install eAuto
+.\InstallSQLServer.ps1 SQL2019
+    -saPwd SuperStr0ngPassword 
+    -Instancename <ADD Speicifc instance name Here>
+    -AutoMaxMemory 
+    -InstanceRootDir D:\MSQL12.<ADD Speicifc instance name Here>\MSSQL\DATA\
+    -UserDataRootDir D:\MSSQL12.<ADD Speicifc instance name Here>\MSSQL\DATA\
+    -UserTLogRootDir D:\MSSQL12.<ADD Speicifc instance name Here>\MSSQL\DATA\
+    -TempdbDataRootDir T:\Tempdb\Tempdb\
+    -BackupRootDir E:\Backups\
+    
