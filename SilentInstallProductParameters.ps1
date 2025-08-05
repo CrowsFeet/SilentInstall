@@ -75,3 +75,15 @@
     -TempdbDataRootDir T:\Tempdb\Tempdb\
     -BackupRootDir E:\Backups\
     
+# Install DDMS -  2019
+.\InstallSQLServer.ps1 SQL2019
+    -saPwd SuperStr0ngPassword 
+    -Instancename MSSQLSERVER
+    -AutoMaxMemory 
+    -InstanceRootDir S:\MSSQL\MSSQL11.SQL2012\MSSQL\
+    -UserDataRootDir F:\Data\
+    -UserTLogRootDir G:\Log\
+    -TempdbDataRootDir T:\Tempdb\Data\
+    -BackupRootDir T:\Backups\
+#T:\MSSQL\MSSQL11.SQL2012\MSSQL\DATA
+#C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data\ # rootdir?
