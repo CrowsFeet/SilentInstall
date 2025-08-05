@@ -85,5 +85,7 @@
     -UserTLogRootDir G:\Log\
     -TempdbDataRootDir T:\Tempdb\Data\
     -BackupRootDir T:\Backups\
-#T:\MSSQL\MSSQL11.SQL2012\MSSQL\DATA
+#T:\MSSQL\MSSQL11.SQL2012\MSSQL\DATA # master db path
+#T:\MSSQL\MSSQL11.SQL2012\MSSQL\DATA # master log path
 #C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data\ # rootdir?
+
