@@ -89,3 +89,13 @@
 #T:\MSSQL\MSSQL11.SQL2012\MSSQL\DATA # master log path
 #C:\Program Files\Miscosoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Data\ # rootdir?
 
+# Install Acsellerate -  2019
+.\InstallSQLServer.ps1 SQL2019
+    -saPwd SuperStr0ngPassword 
+    -Instancename MSSQLSERVER
+    -AutoMaxMemory 
+    -InstanceRootDir E:\SQLServerData\MSSQL15.MSSQLSERVER\MSSQL\DATA\
+    -UserDataRootDir E:\SQLServerData\
+    -UserTLogRootDir E:\SQLServerData\
+    -TempdbDataRootDir T:\Tempdb\Data\
+    -BackupRootDir F:\Backups\
