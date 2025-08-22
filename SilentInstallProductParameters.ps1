@@ -80,8 +80,8 @@
     -saPwd SuperStr0ngPassword 
     -Instancename MSSQLSERVER
     -AutoMaxMemory 
-    -InstanceRootDir S:\MSSQL\MSSQL11.SQL2012\MSSQL\
-    -UserDataRootDir F:\Data\
+    -InstanceRootDir T:\MSSQL\MSSQL11.SQL2012\MSSQL\
+    -UserDataRootDir T:\Dealer\
     -UserTLogRootDir G:\Log\
     -TempdbDataRootDir T:\Tempdb\Data\
     -BackupRootDir T:\Backups\
@@ -99,3 +99,4 @@
     -UserTLogRootDir E:\SQLServerData\
     -TempdbDataRootDir T:\Tempdb\Data\
     -BackupRootDir F:\Backups\
+
